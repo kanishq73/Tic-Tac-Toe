@@ -185,14 +185,14 @@ function Computer() {
         }
     }
 
-    const Reset = () => {
-        window.location.reload(); 
-        /*
-            reseting the states like board and availIndex will cause to re-run 
-            the other useEffect functions, which cause an abnormal behavior.
-            So, To reset the game here we're reload the entire web page.
-        */
-    }
+    // const Reset = () => {
+    //     window.location.reload(); 
+    //     /*
+    //         reseting the states like board and availIndex will cause to re-run 
+    //         the other useEffect functions, which cause an abnormal behavior.
+    //         So, To reset the game here we're reload the entire web page.
+    //     */
+    // }
 
 
     return (
