@@ -1,6 +1,7 @@
 import React, { useState, useCallback, useEffect, useRef } from 'react'
 import win from '../Audio/win.mp3'
 import wrong from '../Audio/wrong.mp3'
+import { NavLink } from 'react-router-dom'
 import './computer.css'
 
 function Computer() {
@@ -221,7 +222,9 @@ function Computer() {
                     </div>
 
                 </div>
+                <NavLink to="/Computer" >
                 <button className='reset' onClick={() => Reset()}>Restart</button>
+                </NavLink>
             </div>
 
         </>
