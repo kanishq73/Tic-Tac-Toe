@@ -56,3 +56,77 @@
 .boxes:hover {
     background-color: 	#3366cc;
 }
+
+/* Media Queries */
+
+/* For screens with a maximum width of 1200px */
+@media (max-width: 1200px) {
+    .board {
+       width: 500px;
+       height: 500px;
+     }
+    .boxes {
+       width: 150px;
+       height: 150px;
+       font-size: 6rem;
+     }
+    .reset {
+       width: 120px;
+       height: 50px;
+       font-size: 20px;
+     }
+   }
+   
+   /* For screens with a maximum width of 900px */
+   @media (max-width: 900px) {
+    .board {
+       width: 400px;
+       height: 400px;
+     }
+    .boxes {
+       width: 120px;
+       height: 120px;
+       font-size: 5rem;
+     }
+    .reset {
+       width: 100px;
+       height: 40px;
+       font-size: 18px;
+     }
+   }
+   
+   /* For screens with a maximum width of 600px */
+   @media (max-width: 600px) {
+    .board {
+       width: 300px;
+       height: 300px;
+     }
+    .boxes {
+       width: 90px;
+       height: 90px;
+       font-size: 4rem;
+     }
+    .reset {
+       width: 80px;
+       height: 30px;
+       font-size: 16px;
+     }
+   }
+   
+   /* For screens with a maximum width of 400px */
+   @media (max-width: 400px) {
+    .board {
+       width: 250px;
+       height: 250px;
+     }
+    .boxes {
+       width: 70px;
+       height: 70px;
+       font-size: 3rem;
+     }
+    .reset {
+       width: 60px;
+       height: 25px;
+       font-size: 14px;
+     }
+   }
