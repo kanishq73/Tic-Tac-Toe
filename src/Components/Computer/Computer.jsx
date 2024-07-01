@@ -223,8 +223,10 @@ function Computer() {
 
                 </div>
 
-                <button className='reset' }>Restart</button>
-
+                <NavLink to="/">
+                <button className='reset' >Restart</button>
+                </NavLink>
+                
             </div>
 
         </>
