@@ -223,7 +223,7 @@ function Computer() {
 
                 </div>
                 <NavLink to="/Computer" >
-                <button className='reset' onClick={() => Reset()}>Restart</button>
+                <button className='reset' }>Restart</button>
                 </NavLink>
             </div>
 
