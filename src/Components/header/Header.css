@@ -1,0 +1,45 @@
+/* Media Queries */
+
+/* For screens with a maximum width of 1200px */
+@media (max-width: 1200px) {
+    nav .flex {
+      max-width: 900px;
+    }
+    nav .flex h1 {
+      font-size: 48px;
+      margin: 0 12px;
+    }
+  }
+  
+  /* For screens with a maximum width of 900px */
+  @media (max-width: 900px) {
+    nav .flex {
+      max-width: 600px;
+    }
+    nav .flex h1 {
+      font-size: 36px;
+      margin: 0 8px;
+    }
+  }
+  
+  /* For screens with a maximum width of 600px */
+  @media (max-width: 600px) {
+    nav .flex {
+        max-width: 400px;
+    }
+    nav .flex h1 {
+      font-size: 30px;
+      margin: 10px 10px;
+    }
+  }
+  
+  /* For screens with a maximum width of 400px */
+  @media (max-width: 400px) {
+    nav .flex {
+     
+    }
+    nav .flex h1 {
+      font-size: 26px;
+      margin: 10px 10px;
+    }
+  }
